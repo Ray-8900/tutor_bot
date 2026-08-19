@@ -1,22 +1,16 @@
-# Environment
 .env
 
-# Virtual environment
 .Wvenv/
 venv/
 
-# Python
 __pycache__/
 *.py[cod]
 
-# IDE
 .idea/
 .vscode/
 
-# Database
 *.db
 *.sqlite
 *.sqlite3
 
-# Logs
 *.log
