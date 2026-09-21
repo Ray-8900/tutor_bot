@@ -4,7 +4,7 @@ from database.queries import get_all_students, create_invitation_code, create_us
 from database.queries import make_teacher
 
 async def main():
-    user = await make_teacher(1403307753)
+    user = await make_teacher("user-id")
 
     if user:
         print(user.name, user.role)
